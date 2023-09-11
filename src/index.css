@@ -80,7 +80,7 @@ input {
 .list {
   background-color: #5a3e2b;
   color: #ffebb3;
-  padding: 10px 0px 35rem 0px;
+  padding: 10px 0px 0rem 0px;
 
   display: flex;
   justify-content: space-between;
@@ -89,7 +89,10 @@ input {
   align-items: center;
 }
 
-.actions button,
+.actions {
+  padding-top: 300px;
+  padding-bottom: 30px;
+}
 .list select {
   text-transform: uppercase;
   padding: 0.8rem 2.4rem;
